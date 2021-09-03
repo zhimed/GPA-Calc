@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">GPA Calculator</div>
+
+      <div>
+        <ul class="links">
+          <li>NAV</li>
+          <li>BAR</li>
+          <li>PRACTICE</li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="info">
+      <form action="">
+        <input
+          class="addCourse"
+          type="text"
+          name="addCourse"
+          placeholder="(eg.  'CS351 B+ 4'  )"
+        /><button class="addBtn">Add Course</button>
+      </form>
+
+      <table>
+        <tr class="rowHeaders">
+          <th>Course</th>
+          <th>Grade</th>
+          <th>Hours</th>
+        </tr>
+      </table>
+
+      <!-- student gpa summary -->
+
+      <div>
+        <br /><br />
+        <p id="gradePoints">Total grade points:</p>
+        <p id="numHours">Number of hours:</p>
+        <p id="gpa">GPA:</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
